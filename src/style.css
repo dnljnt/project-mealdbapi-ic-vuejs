@@ -1,1 +1,61 @@
 @import "tailwindcss";
+
+/* Google Fonts */
+
+@theme {
+  /* Colors */
+  --color-bg-primary: #0F0D0B;
+  --color-bg-surface: #1A1713;
+  --color-bg-elevated: #252118;
+  --color-bg-glass: rgba(255, 250, 235, 0.04);
+
+  --color-text-primary: #F5F0E8;
+  --color-text-secondary: #B8AE9C;
+  --color-text-tertiary: #6B6457;
+
+  --color-accent-warm: #E8A44A;
+  --color-accent-glow: #F2C16B;
+  --color-accent-soft: rgba(232, 164, 74, 0.12);
+
+  --color-tag-bg: #2C2318;
+  --color-tag-border: rgba(232, 164, 74, 0.25);
+  --color-divider: rgba(245, 240, 232, 0.08);
+  --color-border-subtle: rgba(245, 240, 232, 0.12);
+
+  --color-cal: #E8593C;
+  --color-prot: #4A9EBA;
+  --color-carb: #E8A44A;
+  --color-fat: #8B7EC8;
+
+  /* Fonts */
+  --font-display: "Fraunces", serif;
+  --font-body: "DM Sans", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Radius */
+  --radius-card: 16px;
+  --radius-tag: 999px;
+  --radius-btn: 10px;
+  --radius-input: 10px;
+  --radius-img: 20px;
+  --radius-nutri: 14px;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg-primary);
+    color: var(--color-text-primary);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-display);
+  }
+}
