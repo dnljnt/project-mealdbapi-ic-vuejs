@@ -3,6 +3,7 @@
 Project ini merupakan tugas proyek akhir dari Intermediate Class yang diselenggarakan oleh Primakara Developers. Website ini dibuat sebagai sarana pembelajaran dan eksplorasi dalam membangun aplikasi modern menggunakan Vue.js, Tailwind CSS, serta integrasi AI pada beberapa fitur tertentu.
 
 Masih banyak fitur yang dapat dikembangkan dan dieksplorasi lebih lanjut seiring proses pembelajaran dan pengembangan proyek. Website ini juga dibuat dengan bantuan pendekatan vibe coding untuk membantu proses implementasi, eksplorasi ide, serta pengembangan fitur selama pengerjaan proyek. Intinya full nge-vibe lah :v
+
 ---
 
 # ✨ Fitur Utama
